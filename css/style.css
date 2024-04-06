@@ -1,0 +1,116 @@
+.container {
+    /* margin-top: 10px; */
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body {
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cardCol {
+    padding: 0px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card button {
+    color: white;
+}
+
+.search {
+    width: 100%;
+    border-radius: 15px;
+    margin: auto;
+    padding: 5px 15px 5px;
+}
+
+.btns {
+    margin-top: 60px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.category {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.pagination {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page-link {
+    margin: 0px 15px;
+    /* background: rgba(255, 255, 255, 0); */
+    background-color: transparent;
+    border: none;
+}
+
+.page-link:hover {
+    background-color: transparent;
+}
+
+.card-body {
+    width: 90%;
+    margin: auto;
+}
+
+.cardButtons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+}
+
+.cardButtons button {
+    margin-top: 5px;
+}
+
+.row {
+    width: 100%;
+}
+
+.cardRow {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 0px;
+    margin: 60px 0px;
+}
+
+.cardRow img {
+    height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cardRow {
+        flex-direction: column;
+    }
+
+    .container {
+        justify-content: center;
+    }
+}
