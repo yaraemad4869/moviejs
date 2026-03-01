@@ -50,7 +50,7 @@ export function Functions() {
     function darkMode() {
         let dark = localStorage.getItem("mode")
         if (dark == null) {
-            dark = false
+            dark = true
             localStorage.setItem("mode", dark)
             let mode = document.querySelector(".mode")
             mode.addEventListener("click", () => {
