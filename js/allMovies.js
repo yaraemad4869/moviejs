@@ -49,7 +49,7 @@ export function allMovies(url) {
             method: 'GET',
             headers: {
                 accept: 'application/json',
-                Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3ZTU4Y2ZlZDUyYmVjZDMyYzk2YzhiMThhNjBlNTEwMSIsInN1YiI6IjY0ZjM3MzA0NzdkMjNiMDE1MDM5ZmNiYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.m8dzbLfiW4VmqFfX0Oilf1sw-3ICrqugy_sjyz2oGUI'
+                Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3ZTU4Y2ZlZDUyYmVjZDMyYzk2YzhiMThhNjBlNTEwMSIsIm5iZiI6MTY5MzY3NjI5Mi4zNjksInN1YiI6IjY0ZjM3MzA0NzdkMjNiMDE1MDM5ZmNiYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.oN7uuOO3rTTqgicx3kRrmyvkBzeZ84BiIkY0-FIs_V4'
             }
         };
         let movieURL = `${url}language=${language}&page=${pageNum}`

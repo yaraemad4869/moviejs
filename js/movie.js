@@ -43,6 +43,6 @@ let btns = document.querySelectorAll(".category")
 for (let i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", () => {
         localStorage.setItem("Page", btns[i].innerText.toLowerCase())
-        open(`../html/view.html`, "_self")
+        open(`./html/view.html`, "_self")
     })
 }
